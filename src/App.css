@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.headFont{
+  font-family: 'Shadows Into Light', cursive;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

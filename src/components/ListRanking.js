@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import RandomButton from "./RandomButton";
 import Card from "./Card";
+import ExtensionIcon from '@mui/icons-material/Extension';
 
 
 const ListRanking = () => {
@@ -35,10 +35,31 @@ const ListRanking = () => {
     }
     // Reorder the films based on their ratings
     const reorderedSingers = [...singers].sort((a, b) => b.rating - a.rating);
+
+    const shuffle = (array) => {
+        array.sort(() => Math.random() - 0.5);
+        return array;
+    }
+    const handleShuffle = () => {
+     const changes = shuffle([...singers]);
+     setSingers(changes);
+    }
+
     return (
         <div>
-            <div>
-                <RandomButton/>
+            <div className='row'>
+                <div style={{backgroundColor: "#ff6e00" }}>
+                    <button onClick={handleShuffle} style={{
+                        backgroundColor: "#ff6e00",
+                        borderColor: "white",
+                        color: "white",
+                        left: "65%",
+                    }}
+                            className='position-relative p-1 m-1'>
+                        <ExtensionIcon fontSize='small'/>
+                        Random Rating
+                    </button>
+                </div>
             </div>
             <div className='d-flex flex-column align-items-center'>
                 {reorderedSingers.map((song) =>

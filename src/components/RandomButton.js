@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../style.css';
 
-const RandomButton = () => {
+const RandomButton = ({songs}) => {
     return (
         <div className='row'>
             <div style={{backgroundColor:"#ff6e00"}}>
