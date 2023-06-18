@@ -15,7 +15,7 @@
       "id": 2,
       "name": "Ariana Grande",
       "single": "Put Your Hearts Up",
-      "rating": 2,
+      "rating": 8,
       "coverUrl": "https://i.ibb.co/fxKWK1G/ariana-grandes.jpg",
       "color": "#D29602"
     },
@@ -23,7 +23,7 @@
       "id": 3,
       "name": "Beyonce",
       "single": "Single Ladies",
-      "rating": 4,
+      "rating": 9,
       "coverUrl": "https://i.ibb.co/FzH8DSS/beyonce.jpg",
       "color": "#2B5583"
     },
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Billie Eilish",
       "single": "Ocean Eyes",
-      "rating": 3,
+      "rating": 10,
       "coverUrl": "https://i.ibb.co/bgKJdvR/billie-eilish.jpg",
       "color": "#678A08"
     },
@@ -39,7 +39,7 @@
       "id": 5,
       "name": "Ed Sheeran",
       "single": "Shape of You",
-      "rating": 4,
+      "rating": 6,
       "coverUrl": "https://i.ibb.co/q0sb9Bq/ed-sheeran.jpg",
       "color": "#F4890E"
     },
@@ -55,7 +55,7 @@
       "id": 7,
       "name": "Lady Gaga",
       "single": "Stupid Love",
-      "rating": 4,
+      "rating": 3,
       "coverUrl": "https://i.ibb.co/dpZHnTs/lady-gaga.jpg",
       "color": "#F24074"
     },
@@ -63,7 +63,7 @@
       "id": 8,
       "name": "Norah Jones",
       "single": "I'm Alive",
-      "rating": 5,
+      "rating": 9,
       "coverUrl": "https://i.ibb.co/DkKpLhC/norah-jones.jpg",
       "color": "#747089"
     },
@@ -71,7 +71,7 @@
       "id": 9,
       "name": "Idan Raichel",
       "single": "Beresheet",
-      "rating": 3,
+      "rating": 2,
       "coverUrl": "https://i.ibb.co/9n7MQ4L/idan-raichel.jpg",
       "color": "#772500"
     },
@@ -87,7 +87,7 @@
       "id": 11,
       "name": "Tones and I",
       "single": "Dance Monkey",
-      "rating": 5,
+      "rating": 8,
       "coverUrl": "https://i.ibb.co/MRJjdjs/tones-and-i.jpg",
       "color": "#D62C01"
     }

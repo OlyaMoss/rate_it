@@ -14,12 +14,15 @@ const Card = ({singer,ratingChange}) => {
             </div>
 
             <div key={singer.id}>
-                <span>Rate me</span>
+                <span className='mx-3'>Rate me</span>
                     <Rating
-                        name="simple-controlled"
+                        name="customized-10"
                         value={rating}
+                        defaultValue={2}
+                        max={10}
                         sx={{
-                            color: `${singer.color}`
+                            color: `${singer.color}`,
+                            fontSize: "15px"
                         }}
                         onChange={(event,newValue) => {
                             setRating(newValue)
