@@ -1,25 +1,37 @@
-import logo from './logo.png';
 import './App.css';
 import ListRanking from "./components/ListRanking";
 import photo from './media/photo.jpg'
+import rate_it from './media/Component 1 – 1.png'
+import React, {useEffect, useState} from "react";
 
 function App() {
-  return (
-      <div style={{backgroundColor: "#a1cfe0"}} className="container-fluid" >
+
+
+    return (
+      <div style={{backgroundColor: "#9dcbe0"}} className="container-fluid">
           <div className='row'>
-              <nav  style={{backgroundColor: "white"}} className='navbar d-flex justify-content-md-evenly '>
+              <nav style={{
+                  background: '#FFFFFF 0% 0% no-repeat padding-box',
+                  boxShadow: '0px 3px 6px #00000029',
+                  opacity: 1
+              }} className='navbar d-flex justify-content-md-evenly '>
                   <div>
-                      <img className='navbar-brand ' src={logo} alt='logo' height='75'/>
-                      <a style={{color:"#ff6e00",fontSize: "50px" }} className='navbar-brand headFont'>Rate it</a>
+                      <img src={rate_it} alt='Rate_it'/>
                   </div>
-                  <div style={{left:"80px"}} className='w-25 position-relative'>
-                      <img className='mx-2' style={{float:"left",borderRadius:"50%"}} src={photo} alt='photo' width='40px' height='38px'/>
-                      <p style={{color:"#ff6e00",fontSize: "15px"}}>Created by Olga Eidelman</p>
+                  <div style={{left: "80px"}} className='w-25 position-relative'>
+                      <img className='mx-2' style={{float: "left", borderRadius: "50%"}} src={photo} alt='photo'
+                           width='40px' height='38px'/>
+                      <p style={{
+                          textAlign: 'left',
+                          fontSize: '18px',
+                          letterSpacing: '0px',
+                          color: '#FF6100',
+                          opacity: 1}}>Created by Olga Eidelman</p>
                   </div>
               </nav>
           </div>
+              <ListRanking/>
 
-          <ListRanking/>
       </div>
   );
 }
